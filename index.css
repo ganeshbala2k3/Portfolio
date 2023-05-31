@@ -1,0 +1,168 @@
+*
+{
+    box-sizing: border-box !important;
+}
+
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60");
+    background-size: cover;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+.nav-link
+{
+    color: white !important;
+ }
+.flex-container
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.btn-primary
+{
+    background-color: red !important;
+    font-weight: bold !important;
+}
+.carouselExampleIndicators
+{
+    border-radius: 10px !important; 
+}
+.Carrer-Objective
+{
+    text-align: center;
+    margin-top: 30px;
+   background-color: white;
+   border-radius: 10px;
+   padding-top: 40px;
+   height: 200px;
+   
+}
+.card:hover{
+    transform: scale(1.1); 
+}
+#Carrer-Objective-img
+{
+ float: left;
+width: 100px;
+height:100px;
+margin: 10px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .Carrer-Objective
+    {
+        height: 300px;
+        padding-top: 60px;
+    }
+    .carousel-item img
+    {
+        height: 500px !important;
+    }
+    .carousel-item #banner-video
+    {
+        height: 500px !important;
+    }
+    #carouselExampleIndicators
+    {
+        height: 500px !important;
+    }
+    #btech
+    {
+        height: 400px !important;
+        width: 400px !important;
+    }
+    #inter
+    {
+        height: 400px !important;
+        width: 400px !important;
+        margin-top: 0px !important;
+    }
+    #ssc
+    {
+        height: 400px !important;
+        width: 400px !important;
+        margin-top: 0px !important;
+    }
+   
+
+}
+@media screen and (max-width: 600px) {
+    .Carrer-Objective
+    {
+        height: 500px;
+        padding-top: 40px;
+        padding-right: 10px;
+       
+    }
+    .carousel-item img
+    {
+        height: 300px !important;
+    }
+    .carousel-item #banner-video
+    {
+        height: 300px !important;
+    }
+    #carouselExampleIndicators
+    {
+        height: 300px !important;
+        margin: 10px !important;
+    }
+    .flex-container
+    {
+        margin-left: 120px;
+    }
+    .card
+    {
+        margin-bottom: 20px !important;
+    }
+   
+}
+
+
+li{
+    margin-left: 20px;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col
+{
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+.col h5{
+  color: navy;
+}
+
+.col:hover{
+    background-color: yellow;
+    transform: scale(1.2); 
+}
+@media screen and (max-width: 370px)
+{
+    body
+    {
+        .flex-container
+        {
+            margin-top: 20px !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .Carrer-Objective
+        {
+          background-color: beige !important;
+        }
+    }
+} 
+
+
+  
