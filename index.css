@@ -149,8 +149,6 @@ h4{
 }
 @media screen and (max-width: 370px)
 {
-    body
-    {
         .flex-container
         {
             margin-top: 20px !important;
@@ -161,7 +159,11 @@ h4{
         {
           background-color: beige !important;
         }
-    }
+        .carousel-item #banner-video
+        {
+            transform: scale(2.5);
+        }
+
 } 
 
 
