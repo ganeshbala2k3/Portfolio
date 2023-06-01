@@ -163,8 +163,22 @@ h4{
         {
             transform: scale(2.5);
         }
+        #skills
+        {
+            height: 85px !important;
+            margin-left: 0px !important;
+            border-radius: 10px !important;
+            border: 3px beige solid;
+        }
 
 } 
+#skills
+{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 320px;
+    height: 200px;
+}
 
 
   

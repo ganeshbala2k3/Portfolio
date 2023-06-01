@@ -1,0 +1,39 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60");
+    background-size: cover;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+.nav-link
+{
+    
+    color: white !important;
+ }
+ li{
+    margin-left: 20px;
+}
+.Software
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.Software img{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:370px) {
+    .Software img{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 250px;
+    }
+}
