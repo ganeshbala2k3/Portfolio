@@ -1,0 +1,32 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60");
+    background-size: cover;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+.nav-link
+{
+    
+    color: white !important;
+ }
+ li{
+    margin-left: 20px;
+}
+.card
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@media screen and (max-width:370px){
+    .card{
+    margin-top: 50px !important;
+    margin-left: 0 !important;
+    margin-right: 0px !important;
+    }
+    
+}
